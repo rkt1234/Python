@@ -5,7 +5,7 @@
 # Inside the function, args is treated as a tuple.
 
 def add_numbers(*args):
-    print(args)  # args is a tuple
+    print(args[2])  # args is a tuple
     return sum(args)
 
 print(add_numbers(1, 2, 3, 4))  # Output: 10
